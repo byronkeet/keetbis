@@ -16101,6 +16101,78 @@ body {
   margin: 0 10px;
 }
 
+.hero.is-fullheight {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .hero.is-fullheight {
+    padding-top: 2rem;
+  }
+}
+.hero.is-fullheight .container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero.is-fullheight .container .column.is-three-fifths {
+  text-align: center;
+}
+.hero.is-fullheight .container .column.is-three-fifths img {
+  max-width: 300px;
+  margin-bottom: 48px;
+}
+.hero.is-fullheight .container .column.is-three-fifths h1, .hero.is-fullheight .container .column.is-three-fifths .h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.hero.is-fullheight .container .column.is-three-fifths h2, .hero.is-fullheight .container .column.is-three-fifths .h2 {
+  font-size: 24px;
+  margin-bottom: 54px;
+}
+@media (max-width: 768px) {
+  .hero.is-fullheight .container .column.is-three-fifths h1, .hero.is-fullheight .container .column.is-three-fifths .h1 {
+    font-size: 36px;
+  }
+  .hero.is-fullheight .container .column.is-three-fifths h2, .hero.is-fullheight .container .column.is-three-fifths .h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .hero.is-fullheight .container .column.is-three-fifths h1, .hero.is-fullheight .container .column.is-three-fifths .h1 {
+    font-size: 32px;
+  }
+}
+.hero.is-fullheight .container .column.is-three-fifths .button.is-primary {
+  font-weight: 500;
+  background-color: transparent;
+  color: #1097f7;
+  border: 2px solid #1097f7;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.hero.is-fullheight .container .column.is-three-fifths .button.is-primary:hover {
+  background-color: #1097f7;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;
