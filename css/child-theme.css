@@ -16160,6 +16160,7 @@ body {
   font-size: 1.3rem;
   padding: 10px 20px;
   text-decoration: none;
+  font-size: 20px;
 }
 .hero.is-fullheight .container .column.is-three-fifths .button.is-primary:hover {
   background-color: #1097f7;
