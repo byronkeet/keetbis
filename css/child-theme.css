@@ -15805,6 +15805,10 @@ body {
   border-left: 1px solid #E6ECF8;
   border-right: 1px solid #E6ECF8;
 }
+.skills .WordPress a {
+  text-decoration: none;
+  color: #141c3a;
+}
 
 .projects {
   padding-top: 80px;
@@ -15887,6 +15891,11 @@ body {
 .container .box .body .website {
   font-weight: bold;
   font-size: 30px;
+}
+@media (max-width: 576px) {
+  .container .box .body .website {
+    font-size: 24px;
+  }
 }
 .container .box .body svg {
   width: 8px;

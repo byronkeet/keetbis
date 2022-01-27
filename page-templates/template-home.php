@@ -69,7 +69,7 @@ if ( is_front_page() ) {
 									<p class="desc">I enjoy the WP community and the process of block-first native plugin development.</p>
 
 									<h3 class="list-title">Plugin Contributions:</h3>
-									<p class="list-title-desc">Block Lab, Store Exporter, Product Importer</p>
+									<p class="list-title-desc"><a href="https://wordpress.org/plugins/block-lab/" target="_black">Block Lab</a>, <a href="https://wordpress.org/plugins/woocommerce-exporter/" target="_black">Store Exporter</a>, <a href="https://wordpress.org/plugins/woocommerce-product-importer/" target="_blank">Product Importer</a></p>
 
 									<h3 class="list-title">Dev tools:</h3>
 									<ul>
@@ -115,7 +115,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Hello Charts</h2>
-											<p class="fs-6 text-white">A block-first and beautiful way to add charts to your WordPress website. <br>
+											<p class="fs-6 text-white project-description">A block-first and beautiful way to add charts to your WordPress website. <br>
 											As part of <a href="https://github.com/hello-wp" target="_blank">Hello WP</a>, a 3 person team, we strive to create block-editor native plugins for WordPress.
 											</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://hellocharts.co/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
@@ -131,7 +131,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Koala Boss</h2>
-											<p class="fs-6 text-white">
+											<p class="fs-6 text-white project-description">
 											I was involved in builing the file and database backup and restore stream on the WordPress plugin side that makes use of the AWS SDK and interfaces with the KoalaBoss API.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://koalaboss.com/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
@@ -146,7 +146,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Visser Labs</h2>
-											<p class="fs-6 text-white">For two years I handled all client support and feature development of the WooCommerce <a href="https://wordpress.org/plugins/woocommerce-exporter/" target="_black">Store Exporter</a> and <a href="https://wordpress.org/plugins/woocommerce-product-importer/" target="_blank">Product Importer</a> (free and Pro) plugins. These plugins are for exclusively exporting and importing WooCommerce data.</p>
+											<p class="fs-6 text-white project-description">For two years I handled all client support and feature development of the WooCommerce <a href="https://wordpress.org/plugins/woocommerce-exporter/" target="_black">Store Exporter</a> and <a href="https://wordpress.org/plugins/woocommerce-product-importer/" target="_blank">Product Importer</a> (free and Pro) plugins. These plugins are for exclusively exporting and importing WooCommerce data.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://visser.com.au/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
@@ -160,7 +160,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Australian Turf Club</h2>
-											<p class="fs-6 text-white">I worked as part of the WP team to develop a plugin that interfaced with Microsoft Dynamics CRM as we built out a new members portal. The WP theme made use of the Sage Roots file structure.</p>
+											<p class="fs-6 text-white project-description">I worked as part of the WP team to develop a plugin that interfaced with Microsoft Dynamics CRM as we built out a new members portal. The WP theme made use of the Sage Roots file structure.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://www.australianturfclub.com.au/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
@@ -174,7 +174,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Crankit Fitness</h2>
-											<p class="fs-6 text-white">Freelance work for making design and SEO improvements and adding additional features to the existing WordPress theme.</p>
+											<p class="fs-6 text-white project-description">Freelance work for making design and SEO improvements and adding additional features to the existing WordPress theme.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://www.crankitfitness.com/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
@@ -188,7 +188,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Safari Frank</h2>
-											<p class="fs-6 text-white">Assisted in the maintenance and feature development of the complex WordPress theme. The theme made use of ACF, WPML, Gravity Forms, Interactive Maps amongst others.</p>
+											<p class="fs-6 text-white project-description">Assisted in the maintenance and feature development of the complex WordPress theme. The theme made use of ACF, WPML, Gravity Forms, Interactive Maps amongst others.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://safarifrank.com.au/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
@@ -202,7 +202,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Designomo</h2>
-											<p class="fs-6 text-white">Created a custom WP Theme for startup interior design e-commerce site.</p>
+											<p class="fs-6 text-white project-description">Created a custom WP Theme for startup interior design e-commerce site.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://designomo.com.au/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
@@ -216,7 +216,7 @@ if ( is_front_page() ) {
 									<div class="content d-flex flex-column align-items-center justify-content-center text-center pt-6 pb-6">
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">DeadDropProductions</h2>
-											<p class="fs-6 text-white"><a href="https://github.com/byronkeet/DeadDropProductions" target="_blank">DDP</a> was my first ever site built from the ground up using NodeJS, Express, HTML, CSS and JS. The site is for a music producer to download raw tracks from clients in order to mix and master the files before uploading the finished product to the cloud for downloading.</p>
+											<p class="fs-6 text-white project-description"><a href="https://github.com/byronkeet/DeadDropProductions" target="_blank">DDP</a> was my first ever site built from the ground up using NodeJS, Express, HTML, CSS and JS. The site is for a music producer to download raw tracks from clients in order to mix and master the files before uploading the finished product to the cloud for downloading.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://ddp-demo.herokuapp.com/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
