@@ -30,8 +30,8 @@ if ( is_front_page() ) {
 
 					<div class="hero-banner container d-flex text-center flex-column align-items-center justify-content-center">
 						<h1>I'm Keet B</h1>
-						<h3>Full-Stack Developer</h3>
-						<p>Once a highly qualified investment manager, now a passionate developer with a desire to build projects for the betterment of the open web.</p>
+						<h3>Full-Stack Web Developer</h3>
+						<p>Once a qualified investment manager, now a passionate developer experienced in building custom sites and products for the betterment of the open web.</p>
 						<img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/keetb.png" alt="cartoon me">
 					</div>
 
@@ -39,7 +39,7 @@ if ( is_front_page() ) {
 						<div class="container d-flex flex-column align-items-center justify-content-center text-center">
 							<p>Born in South Africa, I am <strong>inspired by open source</strong> and its contributors to bring value and precious resources to all, including those of limited means.</p>
 							<p>With the <strong>power to alter the lives</strong> of even the most underprivileged individuals, open-source is paving the way for drastic change and redistribution of wealth.</p>
-							<p class="mb-5">Herein lies my <strong>passion</strong> for continuous learning of open-source technology for developing <strong>life changing products and sites for the world</strong>.</p>
+							<p class="mb-5">Herein lies my <strong>love</strong> for continuous learning of open-source technology and developing <strong>life changing products and sites</strong> for the world.</p>
 						</div>
 					</div>
 
