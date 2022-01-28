@@ -132,7 +132,7 @@ if ( is_front_page() ) {
 										<div class="d-flex justify-content-around align-items-center back-info flex-column">
 											<h2 class="text-white website">Koala Boss</h2>
 											<p class="fs-6 text-white project-description">
-											I was involved in builing the file and database backup and restore stream on the WordPress plugin side that makes use of the AWS SDK and interfaces with the KoalaBoss API.</p>
+											I was involved in building the file and database backup and restore stream on the WordPress plugin side that makes use of the AWS SDK and interfaces with the KoalaBoss API.</p>
 											<a class="button is-primary is-outlined is-rounded contact-button" href="https://koalaboss.com/" target="_blank"><span>Visit Website </span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></span></a>
 										</div>
 									</div>
