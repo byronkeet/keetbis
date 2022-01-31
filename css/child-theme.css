@@ -16117,11 +16117,6 @@ body {
   padding: 0;
   margin: 0;
 }
-@media (max-width: 768px) {
-  .hero.is-fullheight {
-    padding-top: 2rem;
-  }
-}
 .hero.is-fullheight .container {
   margin: 0 auto;
   display: flex;
@@ -16156,7 +16151,13 @@ body {
 }
 @media (max-width: 576px) {
   .hero.is-fullheight .container .column.is-three-fifths h1, .hero.is-fullheight .container .column.is-three-fifths .h1 {
-    font-size: 32px;
+    font-size: 28px;
+  }
+  .hero.is-fullheight .container .column.is-three-fifths h2, .hero.is-fullheight .container .column.is-three-fifths .h2 {
+    font-size: 16px;
+  }
+  .hero.is-fullheight .container .column.is-three-fifths img.droid {
+    max-width: 350px !important;
   }
 }
 .hero.is-fullheight .container .column.is-three-fifths .button.is-primary {
@@ -16180,7 +16181,6 @@ body {
 .hero-body {
   flex-grow: 1;
   flex-shrink: 0;
-  padding: 3rem 1.5rem;
 }
 
 .has-blue-color,

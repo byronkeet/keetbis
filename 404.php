@@ -27,7 +27,7 @@ defined( 'ABSPATH' ) || exit;
 		<div class="hero-body" style="padding-top: 0;">
 			<div class="container">
 				<div class="columns is-centered">
-					<div class="column is-three-fifths"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/404-r2d2.png" style="margin-bottom: 48px; max-width: 400px;">
+					<div class="column is-three-fifths"><img class="droid" src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/404-r2d2.png" style="margin-bottom: 48px; max-width: 400px;">
 						<h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">404 error</h1>
 						<h2 class="subtitle is-size-4-desktop">This isn't the droid (or page) you're looking for.</h2><a class="button is-primary is-outlined is-medium is-rounded" style="margin-top: 30px; font-weight: 500;" href="/">Return home</a>
 					</div>
