@@ -692,3 +692,12 @@ body {
     flex-grow: 1;
     flex-shrink: 0;
 }
+
+// Contact form 7 button
+
+input.wpcf7-form-control.wpcf7-submit {
+	font-size: 20px;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+	color: white;
+}
