@@ -291,16 +291,16 @@ if ( is_front_page() ) {
 								<div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active">
+											<img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/luke.jpeg" alt="Luke Carbis">
+											<h4 class="quote">“I have been lucky enough to collaborate with Byron on quite a number of WordPress projects. He is an absolute gem to work with – not only because of his dev chops, but also because of his willingness and capacity to learn. Byron's meticulous attention to detail and relentless optimism never fail to improve my day.”</h4>
+											<h5 class="name">Luke Carbis</h5>
+										</div>
+										<div class="carousel-item">
 											<img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/michael.jpeg" alt="Michael Visser">
 											<h4 class="quote">“Byron is a talented independent WordPress Theme and Plugin developer, his studious approach to development and troubleshooting is rarer than hens' teeth. Working with Visser Labs Byron modernised WordPress Plugins in active use by thousands of online store owners and worked one-on-one with customers/store-owners to troubleshoot issues. Nice one Byron!”</h4>
 											<h5 class="name">Michael Visser</h5>
 										</div>
 										<!-- <div class="carousel-item">
-											<img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/luke.jpeg" alt="Luke Carbis">
-											<h4 class="quote">“Some quote from an awesome person I have worked with.”</h4>
-											<h5 class="name">Luke Carbis</h5>
-										</div>
-										<div class="carousel-item">
 											<img src="<?php echo esc_url( get_theme_file_uri() ); ?>/images/jeremy.jpeg" alt="Jeremy Hague">
 											<h4 class="quote">“Some quote from an awesome person I have worked with.”</h4>
 											<h4 class="name">Jeremy Hague</h4>
@@ -308,8 +308,8 @@ if ( is_front_page() ) {
 									</div>
 									<div class="carousel-indicators">
 										<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-										<!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-										<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+										<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+										<!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
 									</div>
 								</div>
 							</div>
